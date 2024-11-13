@@ -84,7 +84,7 @@ const Item = ({
           )}
         </h3>
         <p className="text-muted-foreground text-xs mt-1">{date}</p>
-        {location ?? (
+        {location && (
           <p className="text-muted-foreground text-xs">{location}</p>
         )}
       </div>
