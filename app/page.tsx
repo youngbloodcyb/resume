@@ -2,58 +2,56 @@ import { intro, work, education } from "@/lib/content";
 
 export default function Home() {
   return (
-    <>
-      <main className="grid gap-8 max-w-3xl text-sm p-8">
-        <section className="grid gap-4">
-          <div className="flex gap-4 justify-between items-center">
-            <div className="flex items-center justify-between">
-              <h1>{intro.name}</h1>
-            </div>
-
-            <div className="nav-links flex gap-4">
-              <a
-                className="text-muted-foreground hover:text-foreground transition-all"
-                href={intro.href}
-              >
-                Portfolio
-              </a>
-              <a
-                className="text-muted-foreground hover:text-foreground transition-all"
-                href={intro.github}
-              >
-                Github
-              </a>
-              <a
-                className="text-muted-foreground hover:text-foreground transition-all"
-                href={intro.linkedin}
-              >
-                LinkedIn
-              </a>
-            </div>
+    <main className="grid gap-8 max-w-3xl text-sm p-8">
+      <section className="grid gap-4">
+        <div className="flex gap-4 justify-between items-center">
+          <div className="flex items-center justify-between">
+            <h1>{intro.name}</h1>
           </div>
 
-          <p className="text-muted-foreground">{intro.about}</p>
-        </section>
-
-        <section>
-          <h2>Work</h2>
-          <div className="grid divide-y">
-            {work.map((item) => (
-              <Item key={item.title} {...item} />
-            ))}
+          <div className="nav-links flex gap-4">
+            <a
+              className="text-muted-foreground hover:text-foreground transition-all"
+              href={intro.href}
+            >
+              Portfolio
+            </a>
+            <a
+              className="text-muted-foreground hover:text-foreground transition-all"
+              href={intro.github}
+            >
+              Github
+            </a>
+            <a
+              className="text-muted-foreground hover:text-foreground transition-all"
+              href={intro.linkedin}
+            >
+              LinkedIn
+            </a>
           </div>
-        </section>
+        </div>
 
-        <section>
-          <h2>Education</h2>
-          <div className="grid divide-y">
-            {education.map((item) => (
-              <Item key={item.title} {...item} />
-            ))}
-          </div>
-        </section>
-      </main>
-    </>
+        <p className="text-muted-foreground">{intro.about}</p>
+      </section>
+
+      <section>
+        <h2>Work</h2>
+        <div className="grid divide-y">
+          {work.map((item) => (
+            <Item key={item.title} {...item} />
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div className="grid divide-y">
+          {education.map((item) => (
+            <Item key={item.title} {...item} />
+          ))}
+        </div>
+      </section>
+    </main>
   );
 }
 
