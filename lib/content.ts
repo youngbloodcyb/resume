@@ -12,6 +12,7 @@ export const work = [
     title: "Design Engineer at Ampry",
     href: "https://ampry.com",
     date: "2023 to Present",
+    location: "Pleasant Grove, UT",
     description: [
       "Lead product engineering initiatives and design system architecture",
       "Drive technical implementation of component libraries",
@@ -22,6 +23,7 @@ export const work = [
     title: "Design Engineer at 9d8",
     href: "https://9d8.dev",
     date: "2021 to Present",
+    location: "Remote",
     description: [
       "Design and develop AI-powered solutions for marketing and sales teams",
       "Create scalable systems that enhance client workflow efficiency",
@@ -32,6 +34,7 @@ export const work = [
     title: "Design Engineer at Tackle",
     href: "https://tackle.io",
     date: "2022 to 2023",
+    location: "Remote",
     description: [
       "Led development of design systems and technical architecture",
       "Improved site performance metrics while scaling development workflows",
@@ -42,6 +45,7 @@ export const work = [
     title: "Founding Designer at Ampry",
     href: "https://ampry.com",
     date: "2020 to 2022",
+    location: "Pleasant Grove, UT",
     description: [
       "Built scalable design systems for CRO tech startup from ground up",
       "Developed and implemented conversion optimization strategies",
@@ -52,6 +56,7 @@ export const work = [
     title: "Designer at Zion",
     href: "https://zion.surf",
     date: "2018 to 2022",
+    location: "Lehi, UT",
     description: [
       "Collaborated with 100+ brands and marketing agencies",
       "Created cohesive visual narratives across multiple platforms",
@@ -64,6 +69,7 @@ export const education = [
   {
     title: "BA Advertising at BYU",
     date: "2018 to 2022",
+    location: "Provo, UT",
     description: [
       "Focus: Brand strategy and communication design",
       "Developed expertise in account leadership and growth marketing",
@@ -73,6 +79,7 @@ export const education = [
   {
     title: "UX Design Certificate at Google",
     date: "2020 to 2021",
+    location: "Remote",
     description: [
       "Mastered user journey mapping and wireframing techniques",
       "Completed 5 end-to-end product design projects",

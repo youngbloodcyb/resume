@@ -2,7 +2,7 @@ import { intro, work, education } from "@/lib/content";
 
 export default function Home() {
   return (
-    <main className="grid gap-8 max-w-3xl text-sm p-8">
+    <main className="grid gap-8 max-w-4xl text-sm p-8">
       <section className="grid gap-4">
         <div className="flex gap-4 justify-between items-center">
           <div className="flex items-center justify-between">
@@ -63,31 +63,32 @@ const Item = ({
   date,
   description,
   href,
+  location,
 }: {
   title: string;
   date: string;
   description: string[];
   href?: string;
+  location?: string;
 }) => {
   return (
-    <div className="grid grid-cols-[1fr_2fr] py-3 gap-2">
+    <section className="grid grid-cols-[1fr_2fr] py-3 gap-2">
       <div>
         <h3 className="font-medium">
           {href ? (
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-2 decoration-muted-foreground/10 hover:decoration-muted-foreground transition-all"
-            >
+            <a href={href} target="_blank" rel="noopener noreferrer">
               {title}
             </a>
           ) : (
             title
           )}
         </h3>
-        <p className="text-muted-foreground text-xs">{date}</p>
+        <p className="text-muted-foreground text-xs mt-1">{date}</p>
+        {location ?? (
+          <p className="text-muted-foreground text-xs">{location}</p>
+        )}
       </div>
+
       <ul>
         {description.map((item) => (
           <li key={item}>
@@ -96,6 +97,6 @@ const Item = ({
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 };
