@@ -33,7 +33,7 @@ const work = [
     href: "https://tackle.io",
     date: "2022 to 2023",
     description: [
-      "Led development of comprehensive design systems and technical architecture",
+      "Led development of design systems and technical architecture",
       "Improved site performance metrics while scaling development workflows",
       "Implemented automated testing and deployment processes",
     ],
@@ -45,7 +45,7 @@ const work = [
     description: [
       "Built scalable design systems for CRO tech startup from ground up",
       "Developed and implemented conversion optimization strategies",
-      "Achieved significant conversion improvements across 200+ client experiences",
+      "Assisted in significant conversion improvements across 200+ clients",
     ],
   },
   {
@@ -55,7 +55,7 @@ const work = [
     description: [
       "Collaborated with 100+ brands and marketing agencies",
       "Created cohesive visual narratives across multiple platforms",
-      "Mediums include web, social, photography, editorial, and illustration work",
+      "Mediums include brand, web, social, product, and publication design",
     ],
   },
 ];
