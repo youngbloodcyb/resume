@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="text-muted-foreground">{intro.about}</p>
+        <p className="text-muted-foreground max-w-prose">{intro.about}</p>
       </section>
 
       <section>
