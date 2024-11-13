@@ -1,37 +1,35 @@
-import { intro, work, education } from "@/lib/content";
+import { intro, work, education, projects, openSource } from "@/lib/content";
 
 export default function Home() {
   return (
     <main className="grid gap-8 max-w-4xl text-sm p-8">
       <section className="grid gap-4">
-        <div className="flex gap-4 justify-between items-center">
-          <div className="flex items-center justify-between">
-            <h1>{intro.name}</h1>
-          </div>
+        <div className="flex items-center justify-between">
+          <h1>{intro.name}</h1>
+        </div>
 
-          <div className="nav-links flex gap-4">
-            <a
-              className="text-muted-foreground hover:text-foreground transition-all"
-              href={intro.href}
-              target="_blank"
-            >
-              Portfolio
-            </a>
-            <a
-              className="text-muted-foreground hover:text-foreground transition-all"
-              href={intro.github}
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              className="text-muted-foreground hover:text-foreground transition-all"
-              href={intro.linkedin}
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-          </div>
+        <div className="nav-links flex gap-4">
+          <a
+            className="text-muted-foreground hover:text-foreground transition-all"
+            href={intro.href}
+            target="_blank"
+          >
+            Portfolio
+          </a>
+          <a
+            className="text-muted-foreground hover:text-foreground transition-all"
+            href={intro.github}
+            target="_blank"
+          >
+            Github
+          </a>
+          <a
+            className="text-muted-foreground hover:text-foreground transition-all"
+            href={intro.linkedin}
+            target="_blank"
+          >
+            LinkedIn
+          </a>
         </div>
 
         <p className="text-muted-foreground max-w-prose">{intro.about}</p>
@@ -50,6 +48,24 @@ export default function Home() {
         <h2>Education</h2>
         <div className="grid divide-y">
           {education.map((item) => (
+            <Item key={item.title} {...item} />
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div className="grid divide-y">
+          {projects.map((item) => (
+            <Item key={item.title} {...item} />
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2>Open Source</h2>
+        <div className="grid divide-y">
+          {openSource.map((item) => (
             <Item key={item.title} {...item} />
           ))}
         </div>

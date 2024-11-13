@@ -87,3 +87,27 @@ export const education = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: "Outr",
+    href: "https://outr.ai",
+    description: [
+      "Mastered user journey mapping and wireframing techniques",
+      "Completed 5 end-to-end product design projects",
+      "Applied UX principles to real-world client challenges",
+    ],
+  },
+];
+
+export const openSource = [
+  {
+    title: "Router.so",
+    href: "https://router.so",
+    description: [
+      "Mastered user journey mapping and wireframing techniques",
+      "Completed 5 end-to-end product design projects",
+      "Applied UX principles to real-world client challenges",
+    ],
+  },
+];
