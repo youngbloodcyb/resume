@@ -1,7 +1,7 @@
 const intro = {
   name: "Bridger Tower",
   about:
-    "I'm a designer and developer based in Salt Lake City, Utah, specializing in creating intuitive, high-performance software and websites that merge visual excellence with practical functionality. I am passionate about human computer interaction, usability, and aesthetics in software and technology.",
+    "I'm a designer and developer specializing in creating intuitive, high-performance software and websites that merge visual excellence with practical functionality. I am passionate about human computer interaction, usability, and aesthetics in software and technology.",
   href: "https://bridger.to",
   github: "https://github.com/brijr",
   linkedin: "https://linkedin.com/in/brdgr",
@@ -85,21 +85,32 @@ export default function Home() {
   return (
     <>
       <main className="grid gap-8 max-w-3xl text-sm p-8">
-        <section className="grid gap-2">
-          <div className="flex items-center justify-between">
-            <h1>{intro.name}</h1>
-          </div>
+        <section className="grid gap-4">
+          <div className="flex gap-4 justify-between items-center">
+            <div className="flex items-center justify-between">
+              <h1>{intro.name}</h1>
+            </div>
 
-          <div className="flex gap-4">
-            <a href={intro.href} className="text-muted-foreground">
-              Portfolio
-            </a>
-            <a href={intro.github} className="text-muted-foreground">
-              Github
-            </a>
-            <a href={intro.linkedin} className="text-muted-foreground">
-              LinkedIn
-            </a>
+            <div className="nav-links flex gap-4">
+              <a
+                className="text-muted-foreground hover:text-foreground transition-all"
+                href={intro.href}
+              >
+                Portfolio
+              </a>
+              <a
+                className="text-muted-foreground hover:text-foreground transition-all"
+                href={intro.github}
+              >
+                Github
+              </a>
+              <a
+                className="text-muted-foreground hover:text-foreground transition-all"
+                href={intro.linkedin}
+              >
+                LinkedIn
+              </a>
+            </div>
           </div>
 
           <p className="text-muted-foreground">{intro.about}</p>

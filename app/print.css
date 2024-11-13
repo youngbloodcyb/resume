@@ -1,62 +1,66 @@
 @media print {
-  /* Reset page margins and colors */
-  @page {
-    margin: 0cm;
-  }
+    /* Reset page margins and colors */
+    @page {
+        margin: 0cm;
+    }
 
-  body {
-    background: white !important;
-    color: black !important;
-    font-size: 10pt !important;
-    line-height: 1.2 !important;
-  }
+    body {
+        background: white !important;
+        color: black !important;
+        font-size: 10pt !important;
+        line-height: 1.2 !important;
+    }
 
-  /* Hide links */
-  a {
-    color: black !important;
-    text-decoration: none !important;
-  }
+    /* Hide links */
+    a {
+        color: black !important;
+        text-decoration: none !important;
+    }
 
-  a[href^="http"]:after {
-    content: none !important;
-  }
+    .nav-links {
+        content: none !important;
+    }
 
-  /* Enhance text readability */
-  .text-muted-foreground {
-    color: #333 !important;
-    opacity: 0.9 !important;
-  }
+    a[href^="http"]:after {
+        content: none !important;
+    }
 
-  /* Optimize layout and spacing */
-  main {
-    padding: 0 !important;
-    max-width: none !important;
-    margin: 0 !important;
-  }
+    /* Enhance text readability */
+    .text-muted-foreground {
+        color: #333 !important;
+        opacity: 0.9 !important;
+    }
 
-  /* Handle page breaks */
-  section {
-    break-inside: avoid;
-    page-break-inside: avoid;
-    margin-bottom: 1cm !important;
-  }
+    /* Optimize layout and spacing */
+    main {
+        padding: 0 !important;
+        max-width: none !important;
+        margin: 0 !important;
+    }
 
-  h1,
-  h2,
-  h3 {
-    break-after: avoid;
-    page-break-after: avoid;
-  }
+    /* Handle page breaks */
+    section {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin-bottom: 1cm !important;
+    }
 
-  /* Hide non-essential elements */
-  .print-hide {
-    display: none !important;
-  }
+    h1,
+    h2,
+    h3 {
+        break-after: avoid;
+        page-break-after: avoid;
+    }
 
-  /* Remove background colors and shadows */
-  * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-    box-shadow: none !important;
-  }
+    /* Hide non-essential elements */
+    .print-hide {
+        display: none !important;
+    }
+
+    /* Remove background colors and shadows */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        box-shadow: none !important;
+    }
 }
