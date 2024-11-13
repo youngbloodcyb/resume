@@ -13,18 +13,21 @@ export default function Home() {
             <a
               className="text-muted-foreground hover:text-foreground transition-all"
               href={intro.href}
+              target="_blank"
             >
               Portfolio
             </a>
             <a
               className="text-muted-foreground hover:text-foreground transition-all"
               href={intro.github}
+              target="_blank"
             >
               Github
             </a>
             <a
               className="text-muted-foreground hover:text-foreground transition-all"
               href={intro.linkedin}
+              target="_blank"
             >
               LinkedIn
             </a>
@@ -67,7 +70,7 @@ const Item = ({
   href?: string;
 }) => {
   return (
-    <div className="grid grid-cols-[1fr_2fr] py-2 gap-2">
+    <div className="grid grid-cols-[1fr_2fr] py-3 gap-2">
       <div>
         <h3 className="font-medium">
           {href ? (
