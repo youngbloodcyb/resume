@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "./print.css";
 import { intro } from "@/lib/content";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
         className={`${inter.variable} ${jetbrainsMono.variable} p-12 antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
