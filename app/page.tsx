@@ -83,39 +83,47 @@ const Education = [
 
 export default function Home() {
   return (
-    <main className="grid gap-8 max-w-3xl text-sm">
-      <section className="grid gap-2">
-        <h1>{intro.name}</h1>
-        <a href={intro.href} className="text-muted-foreground">
-          Portfolio
-        </a>
-        <a href={intro.github} className="text-muted-foreground">
-          Github
-        </a>
-        <a href={intro.linkedin} className="text-muted-foreground">
-          LinkedIn
-        </a>
-        <p className="text-muted-foreground">{intro.about}</p>
-      </section>
+    <>
+      <main className="grid gap-8 max-w-3xl text-sm p-8">
+        <section className="grid gap-2">
+          <div className="flex items-center justify-between">
+            <h1>{intro.name}</h1>
+          </div>
 
-      <section>
-        <h2>Work</h2>
-        <div className="grid divide-y">
-          {work.map((item) => (
-            <Item key={item.title} {...item} />
-          ))}
-        </div>
-      </section>
+          <div className="flex gap-4">
+            <a href={intro.href} className="text-muted-foreground">
+              Portfolio
+            </a>
+            <a href={intro.github} className="text-muted-foreground">
+              Github
+            </a>
+            <a href={intro.linkedin} className="text-muted-foreground">
+              LinkedIn
+            </a>
+          </div>
 
-      <section>
-        <h2>Education</h2>
-        <div className="grid divide-y">
-          {Education.map((item) => (
-            <Item key={item.title} {...item} />
-          ))}
-        </div>
-      </section>
-    </main>
+          <p className="text-muted-foreground">{intro.about}</p>
+        </section>
+
+        <section>
+          <h2>Work</h2>
+          <div className="grid divide-y">
+            {work.map((item) => (
+              <Item key={item.title} {...item} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <div className="grid divide-y">
+            {Education.map((item) => (
+              <Item key={item.title} {...item} />
+            ))}
+          </div>
+        </section>
+      </main>
+    </>
   );
 }
 
