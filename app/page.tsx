@@ -47,7 +47,7 @@ export default function Home() {
         <section>
           <h2>Education</h2>
           <div className="grid divide-y">
-            {Education.map((item) => (
+            {education.map((item) => (
               <Item key={item.title} {...item} />
             ))}
           </div>
