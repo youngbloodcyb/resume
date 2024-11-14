@@ -21,7 +21,7 @@ export const work = [
     ],
   },
   {
-    title: "Owner and Engineer at 9d8",
+    title: "Co-Owner and Engineer at 9d8",
     href: "https://9d8.dev",
     date: "2022 to Present",
     location: "San Diego, CA",
