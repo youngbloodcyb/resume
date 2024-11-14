@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} p-12 antialiased`}
+        className={`${inter.variable} ${jetbrainsMono.variable} sm:p-12 antialiased`}
       >
         {children}
         <Analytics />
