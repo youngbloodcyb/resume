@@ -82,7 +82,7 @@ const Item = ({
   location,
 }: {
   title: string;
-  date: string;
+  date?: string;
   description: string[];
   href?: string;
   location?: string;
@@ -99,7 +99,9 @@ const Item = ({
             title
           )}
         </h3>
-        <p className="text-muted-foreground text-xs mt-1">{date}</p>
+        {date && (
+          <p className="text-muted-foreground text-xs mt-1">{date}</p>
+        )}
         {location && (
           <p className="text-muted-foreground text-xs">{location}</p>
         )}
