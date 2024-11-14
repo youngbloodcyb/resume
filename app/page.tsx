@@ -107,9 +107,9 @@ const Item = ({
 
       <ul>
         {description.map((item) => (
-          <li key={item}>
-            <span className="text-muted-foreground/50 text-xs">{">"}</span>{" "}
-            {item}
+          <li className="grid grid-cols-[auto_1fr] items-baseline gap-1">
+            <p className="text-muted-foreground/50 text-xs">{">"}</p>{" "}
+            <p key={item}>{item}</p>
           </li>
         ))}
       </ul>
