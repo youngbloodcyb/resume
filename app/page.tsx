@@ -99,9 +99,7 @@ const Item = ({
             title
           )}
         </h3>
-        {date && (
-          <p className="text-muted-foreground text-xs mt-1">{date}</p>
-        )}
+        {date && <p className="text-muted-foreground text-xs mt-1">{date}</p>}
         {location && (
           <p className="text-muted-foreground text-xs">{location}</p>
         )}
