@@ -17,6 +17,7 @@ export const work = [
       "Built serverless REST APIs for marketing and sales teams using Typescript, Node.js, AWS Lambda, and Cloudflare Workers",
       "Designed and built monorepo for all internal tooling and libraries using Turborepo, Typescript, React, Next.js",
       "Built durable agentic AI tooling for media buying teams using LLMs, RAG, Redis, Next.js, and Node.js",
+      "Built an image editor and image generation API using Next.js, Zustand, OpenGraph, and WebAssembly",
       "Built and maintained ETL pipelines using Python, AWS Lambda, AWS S3, Postgres, Clickhouse, and Serverless Framework",
     ],
   },
