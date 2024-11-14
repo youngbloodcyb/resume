@@ -58,7 +58,7 @@ export const education = [
   {
     title: "MS in Computer Science—Georgia Tech",
     date: "2022 to 2025",
-    location: "Remote",
+    location: "Atlanta, GA",
     description: [
       "Focus: Interactive and Artificial Intelligence",
       "Coursework in DSA, AI, ML, NLP, HCI, and more",
