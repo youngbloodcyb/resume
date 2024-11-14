@@ -1,158 +1,117 @@
 export const intro = {
-  name: "Bridger Tower",
+  name: "Cameron Youngblood",
   about:
-    "I'm a designer and developer specializing in creating intuitive, high-performance software and websites that merge visual excellence with practical functionality. I am passionate about human computer interaction, usability, and aesthetics in software and technology.",
-  href: "https://bridger.to",
-  github: "https://github.com/brijr",
-  linkedin: "https://linkedin.com/in/brdgr",
+    "I'm a full-stack software engineer with specialty in creating intuitive, well-crafted web applications. Most of my experience is in the realm of marketing and sales technology—quickly shipping features that meet user needs. I'm also passionate about open source and bettering the world through technology and AI.",
+  href: "https://cameron.so",
+  github: "https://github.com/youngbloodcyb",
+  linkedin: "https://linkedin.com/in/cameron-youngblood",
 };
 
 export const work = [
   {
-    title: "Design Engineer at Ampry",
+    title: "Software Engineer at Ampry",
     href: "https://ampry.com",
     date: "2023 to Present",
     location: "Pleasant Grove, UT",
     description: [
-      "Lead product engineering initiatives and design system architecture",
-      "Drive technical implementation of component libraries",
-      "Manage end-to-end product development workflows",
+      "Built serverless REST APIs for marketing and sales teams using Typescript, Node.js, AWS Lambda, and Cloudflare Workers",
+      "Designed and built monorepo for all internal tooling and libraries using Turborepo, Typescript, React, Next.js",
+      "Built durable agentic AI tooling for media buying teams using LLMs, RAG, Redis, Next.js, and Node.js",
+      "Built and maintained ETL pipelines using Python, AWS Lambda, AWS S3, Postgres, Clickhouse, and Serverless Framework",
     ],
   },
   {
-    title: "Design Engineer at 9d8",
+    title: "Owner and Engineer at 9d8",
     href: "https://9d8.dev",
-    date: "2021 to Present",
-    location: "Remote",
+    date: "2022 to Present",
+    location: "San Diego, CA",
     description: [
-      "Design and develop AI-powered solutions for marketing and sales teams",
-      "Create scalable systems that enhance client workflow efficiency",
-      "Implement cutting-edge AI technologies in user-friendly interfaces",
+      "Built MVP for a VC-backed startup using Typescript, Next.js, and Postgres",
+      "Developed AI-powered tools for marketing and sales teams",
+      "Built various performant, large-scale content sites with Next.js and headless CMS",
     ],
   },
   {
-    title: "Creative Developer at Tackle",
-    href: "https://tackle.io",
+    title: "Growth Web Developer at Vivint",
+    href: "https://vivint.com",
     date: "2022 to 2023",
-    location: "Remote",
+    location: "Provo, UT",
     description: [
-      "Led development of design systems and technical architecture",
-      "Improved site performance metrics while scaling development workflows",
-      "Implemented automated testing and deployment processes",
+      "Built and ran experiments on Vivint's core and e-commerce websites to drive growth",
+      "Built an internal JavaScript library for abstracting DOM manipulation, leading to faster development times and fewer bugs",
+      "Automated simple experiment QA processes using Puppeteer and Playwright",
     ],
   },
   {
-    title: "Founding Designer at Ampry",
-    href: "https://ampry.com",
-    date: "2020 to 2022",
-    location: "Pleasant Grove, UT",
+    title: "Analyst Intern at General Motors",
+    href: "https://gm.com",
+    date: "2021",
+    location: "Chicago, IL",
     description: [
-      "Built scalable design systems for CRO tech startup from ground up",
-      "Developed and implemented conversion optimization strategies",
-      "Assisted in significant conversion improvements across 200+ clients",
-    ],
-  },
-  {
-    title: "Designer at Zion",
-    href: "https://zion.surf",
-    date: "2018 to 2022",
-    location: "Lehi, UT",
-    description: [
-      "Collaborated with 100+ brands and marketing agencies",
-      "Created cohesive visual narratives across multiple platforms",
-      "Mediums include brand, web, social, product, and publication design",
+      "Evaluated midwest region go-to-market strategies for the Cadillac Lyriq—the brand's first all-electric vehicle",
+      "Analyzed market trends and internal sales data to inform strategic recommendations",
     ],
   },
 ];
 
 export const education = [
   {
-    title: "BA Advertising at BYU",
-    date: "2018 to 2022",
-    location: "Provo, UT",
+    title: "MS in Computer Science—Georgia Tech",
+    date: "2022 to 2025",
+    location: "Remote",
     description: [
-      "Focus: Brand strategy and communication design",
-      "Developed expertise in account leadership and growth marketing",
-      "Led multiple award-winning campaign projects",
+      "Focus: Interactive and Artificial Intelligence",
+      "Coursework in DSA, AI, ML, NLP, HCI, and more",
+      "Research in HCI and LLMs",
     ],
   },
   {
-    title: "UX Design Certificate at Google",
-    date: "2020 to 2021",
-    location: "Remote",
+    title: "BA in Advertising & Global Business—BYU",
+    date: "2018 to 2022",
+    location: "Provo, UT",
     description: [
-      "Mastered user journey mapping and wireframing techniques",
-      "Completed 5 end-to-end product design projects",
-      "Applied UX principles to real-world client challenges",
+      "Focus: Go-to-market and brand strategy",
+      "Developed expertise in growth marketing and design principles",
+      "Magna Cum Laude",
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "Outr.ai",
-    href: "https://outr.ai",
-    description: [
-      "AI agents for scaling sales outreach",
-      "Role: Product Designer, AI Engineer, and Design Engineer",
-      "Built with Typescript and Next.js",
-    ],
-  },
-  {
-    title: "WaveFinder",
-    href: "https://wavefinder.io",
-    description: [
-      "Marketing message testing powered by AI",
-      "Role: Product Designer, AI Engineer, and Design Engineer",
-      "Built with Typescript and Next.js",
-    ],
-  },
-  {
-    title: "Swyftfin",
-    href: "https://swyftfin.com",
-    description: [
-      "Portable lending platform for home service providers",
-      "Role: Product Designer and Design Engineer",
-      "Built with Typescript and Next.js",
-    ],
-  },
-];
-
-export const openSource = [
-  {
     title: "Router.so",
     href: "https://router.so",
     description: [
       "Headless lead router and form backend",
-      "Role: Product Designer and Design Engineer",
-      "200+ Stars on Github, 800+ Users",
+      "Key features: Dynamic endpoint type safety using Typescript and Zod plus durable background job execution for integrations",
+      "200+ Stars on Github, 800+ Users, large VC backed company using it in production",
     ],
   },
   {
-    title: "Components",
-    href: "https://components.bridger.to",
-    description: [
-      "Collection of components for building marketing websites",
-      "Next.js, Tailwind, React, Typescript, and shadcn/ui",
-      "260+ Stars on Github",
-    ],
-  },
-  {
-    title: "Craft Design System",
-    href: "https://craft-ds.com",
-    description: [
-      "Design system for building websites FAST!",
-      "Next.js, Tailwind, React, Typescript, and shadcn/ui",
-      "170+ Stars on Github",
-    ],
-  },
-  {
-    title: "Next WP",
+    title: "NextWP",
     href: "https://wp.9d8.dev",
     description: [
-      "Wordpress as a headless CMS using Next.js",
-      "Featured by Vercel as a template",
-      "620+ Stars on Github",
+      "Optionated Headless CMS + Next.js starter",
+      "Featured by Vercel as an official template",
+      "630+ Stars on Github, several large production sites using it",
+    ],
+  },
+  {
+    title: "Outr.ai",
+    href: "https://outr.ai",
+    description: [
+      "AI agents for scaling email sales outreach",
+      "Key features: AI-assisted workflow creation, multi-domain email sending and receiving",
+      "Built using Typescript, React, Node.js, Next.js, Cloudflare, AWS, custom mail servers, SST, Postgres, Redis, Queues, and more",
+    ],
+  },
+  {
+    title: "Oat",
+    href: "#",
+    description: [
+      "Disclaimer — this project is WIP and is not currently live",
+      "Semantic image search engine for fashion",
+      "Currently building using CLIP, HuggingFace, Pinecone, Next.js, TypeScript, Python",
     ],
   },
 ];

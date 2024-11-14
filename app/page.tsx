@@ -1,4 +1,4 @@
-import { intro, work, education, projects, openSource } from "@/lib/content";
+import { intro, work, education, projects } from "@/lib/content";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
             href={intro.href}
             target="_blank"
           >
-            Portfolio
+            Website
           </a>
           <a
             className="text-muted-foreground hover:text-foreground transition-all"
@@ -54,18 +54,9 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>Projects</h2>
+        <h2>Projects & Open Source</h2>
         <div className="grid divide-y">
           {projects.map((item) => (
-            <Item key={item.title} {...item} />
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2>Open Source</h2>
-        <div className="grid divide-y">
-          {openSource.map((item) => (
             <Item key={item.title} {...item} />
           ))}
         </div>
