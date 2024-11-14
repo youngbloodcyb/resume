@@ -31,7 +31,7 @@ export const work = [
     ],
   },
   {
-    title: "Design Engineer at Tackle",
+    title: "Creative Developer at Tackle",
     href: "https://tackle.io",
     date: "2022 to 2023",
     location: "Remote",
