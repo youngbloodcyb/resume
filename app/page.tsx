@@ -88,7 +88,7 @@ const Item = ({
   location?: string;
 }) => {
   return (
-    <section className="grid sm:grid-cols-[1fr_2fr] py-3 gap-2">
+    <section className="grid sm:grid-cols-[1fr_2fr] py-3 gap-2 px-3 -mx-3 hover:bg-muted/50 transition-all">
       <div>
         <h3 className="font-medium">
           {href ? (
