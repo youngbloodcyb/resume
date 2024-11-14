@@ -107,9 +107,12 @@ const Item = ({
 
       <ul>
         {description.map((item) => (
-          <li className="grid grid-cols-[auto_1fr] items-baseline gap-1">
+          <li
+            key={item}
+            className="grid grid-cols-[auto_1fr] items-baseline gap-1"
+          >
             <p className="text-muted-foreground/50 text-xs">{">"}</p>{" "}
-            <p key={item}>{item}</p>
+            <p>{item}</p>
           </li>
         ))}
       </ul>
