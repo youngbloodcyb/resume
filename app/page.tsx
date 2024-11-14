@@ -92,7 +92,7 @@ const Item = ({
       <div>
         <h3 className="font-medium">
           {href ? (
-            <a href={href} key={href} target="_blank" rel="noopener noreferrer">
+            <a href={href} target="_blank" rel="noopener noreferrer">
               {title}
             </a>
           ) : (
