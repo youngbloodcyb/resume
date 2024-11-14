@@ -1,4 +1,5 @@
 @media print {
+
     /* Reset page margins and colors */
     @page {
         margin: 0cm;
@@ -17,7 +18,8 @@
         text-decoration: none !important;
     }
 
-    .nav-links {
+    .dont-print {
+        display: none !important;
         content: none !important;
     }
 

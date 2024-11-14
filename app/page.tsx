@@ -8,7 +8,7 @@ export default function Home() {
           <h1>{intro.name}</h1>
         </div>
 
-        <div className="nav-links flex gap-4">
+        <div className="dont-print flex gap-4">
           <a
             className="text-muted-foreground hover:text-foreground transition-all"
             href={intro.href}
