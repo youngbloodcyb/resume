@@ -15,14 +15,14 @@ export const work = [
     location: "Pleasant Grove, UT",
     description: [
       "Built serverless REST APIs for marketing and sales teams using Typescript, Node.js, AWS Lambda, and Cloudflare Workers",
-      "Designed and built monorepo for all internal tooling and libraries using Turborepo, Typescript, React, Next.js",
+      "Designed and built monorepo for all internal tooling and libraries using Turborepo, Typescript, React, Next.js, Vercel",
       "Built durable agentic AI tooling for media buying teams using LLMs, RAG, Redis, Next.js, and Node.js",
       "Built an image editor and image generation API using Next.js, Zustand, OpenGraph, and WebAssembly",
       "Built and maintained ETL pipelines using Python, AWS Lambda, AWS S3, Postgres, Clickhouse, and Serverless Framework",
     ],
   },
   {
-    title: "Co-Owner and Engineer at 9d8",
+    title: "Software Engineer at 9d8",
     href: "https://9d8.dev",
     date: "2022 to Present",
     location: "San Diego, CA",
@@ -40,7 +40,7 @@ export const work = [
     description: [
       "Built and ran experiments on Vivint's core and e-commerce websites to drive growth",
       "Built an internal JavaScript library for abstracting DOM manipulation, leading to faster development times and fewer bugs",
-      "Automated simple experiment QA processes using Puppeteer and Playwright",
+      "Automated experiment QA processes using Puppeteer and Playwright",
     ],
   },
   {
