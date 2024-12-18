@@ -30,6 +30,7 @@ export const work = [
       "Built MVP for a VC-backed startup using Typescript, Next.js, and Postgres",
       "Developed AI-powered tools for marketing and sales teams",
       "Built various performant, large-scale content sites with Next.js and headless CMS",
+      "Ran all aspects of a web development and design agency",
     ],
   },
   {
@@ -58,7 +59,7 @@ export const work = [
 export const education = [
   {
     title: "MS in Computer Science—Georgia Tech",
-    date: "2022 to 2025",
+    date: "2022 to 2024",
     location: "Atlanta, GA",
     description: [
       "Focus: Interactive and Artificial Intelligence",
@@ -85,7 +86,7 @@ export const projects = [
     description: [
       "Headless lead router and form backend",
       "Key features: Dynamic endpoint type safety using Typescript and Zod plus durable background job execution for integrations",
-      "200+ Stars on Github, 800+ Users, large VC backed company using it in production",
+      "200+ Stars on Github, 1,000+ Users, large VC backed companies using it in production",
     ],
   },
   {
@@ -94,7 +95,7 @@ export const projects = [
     description: [
       "Optionated Headless CMS + Next.js starter",
       "Featured by Vercel as an official template",
-      "630+ Stars on Github, several large production sites using it",
+      "690+ Stars on Github, several large production sites using it",
     ],
   },
   {
@@ -108,11 +109,10 @@ export const projects = [
   },
   {
     title: "Oat",
-    href: "#",
+    href: "https://oat.pics",
     description: [
-      "Disclaimer — this project is WIP and is not currently live",
       "Semantic image search engine for fashion",
-      "Currently building using CLIP, HuggingFace, Pinecone, Next.js, TypeScript, Python",
+      "Currently in beta—using CLIP, HuggingFace, PGVector, Next.js, TypeScript, Python, RunPod",
     ],
   },
 ];
